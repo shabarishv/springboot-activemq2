@@ -20,6 +20,9 @@ public class ClientServiceDelegate {
 to run activemq in docker 
 sudo docker run -p 61616:61616 -p 8161:8161 webcenter/activemq
 
+Run consul in docker
+docker run -p 8400:8400 -p 8500:8500 -p 8600:53/udp -h node1 progrium/consul -server -bootstrap
+
 access urls 
 producer :	http://localhost:8080/produce?msg=hello%20shabarish
 consumer : http://localhost:8080/receive
