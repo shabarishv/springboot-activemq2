@@ -37,3 +37,9 @@ Controller code:
 		System.out.println("testing-----");
 		servicerviceDelegate.testmessage(msg);
 	}
+
+DOckerized
+
+docker build -f Dockerfile -t shabspringboot . 
+to rn
+docker run -p 8085:8080 shabspringboot
