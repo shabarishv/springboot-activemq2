@@ -17,7 +17,9 @@ public class ClientServiceDelegate {
 		return new RestTemplate();
 	}
 }
-to run activemq in docker 
+========================================================================
+
+Run activemq in docker 
 sudo docker run -p 61616:61616 -p 8161:8161 webcenter/activemq
 
 Run consul in docker
