@@ -35,5 +35,5 @@ Controller code:
 @RequestMapping(value="/produce/{msg}", method = RequestMethod.GET)
 	public void produce(@PathVariable String msg) {
 		System.out.println("testing-----");
-		studentServiceDelegate.testmessage(msg);
+		servicerviceDelegate.testmessage(msg);
 	}
